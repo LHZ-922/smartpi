@@ -45,8 +45,8 @@ fi
 
 apt-get -y update
 apt -y install curl
-wget https://github.com/pymumu/smartdns/releases/download/Release43/smartdns.1.2023.08.11-1937.x86_64-linux-all.tar.gz
-tar zxf smartdns.1.2023.08.11-1937.x86_64-linux-all.tar.gz
+wget https://github.com/pymumu/smartdns/releases/download/Release46/smartdns.1.2024.06.12-2222.x86_64-linux-all.tar.gz
+tar zxf smartdns.1.2024.06.12-2222.x86_64-linux-all.tar.gz
 cd smartdns
 chmod +x ./install
 ./install -i
@@ -117,8 +117,8 @@ if test -s /etc/smartdns/smartdns.conf.bak; then
 	./install -u
 	rm -rf /root/smartdns*
 fi
-wget https://github.com/pymumu/smartdns/releases/download/Release42/smartdns.1.2023.05.07-1641.x86_64-linux-all.tar.gz
-tar zxf smartdns.1.2023.05.07-1641.x86_64-linux-all.tar.gz
+wget https://github.com/pymumu/smartdns/releases/download/Release46/smartdns.1.2024.06.12-2222.x86_64-linux-all.tar.gz
+tar zxf smartdns.1.2024.06.12-2222.x86_64-linux-all.tar.gz
 cd smartdns
 chmod +x ./install
 ./install -i
